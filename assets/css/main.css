@@ -45,6 +45,14 @@ body {
 	line-height: 1;
 }
 
+#myvideo {
+	position: fixed;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.2);
+	width: 100%;
+	z-index: -2;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -1318,7 +1326,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
+		background: url("video/video.mp4");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;
@@ -1883,6 +1891,10 @@ input, select, textarea {
 
 		}
 
+#h2 {
+	color: #000;
+}
+
 /* Wrapper */
 
 	#wrapper {
@@ -1959,7 +1971,7 @@ input, select, textarea {
 		position: relative;
 		overflow: hidden;
 		width: 100%;
-		background: #ffffff;
+		background: rgba(185, 220, 231, 0.8);
 		box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.25);
 		-moz-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
 		-webkit-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
