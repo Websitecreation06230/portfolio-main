@@ -18,6 +18,34 @@
 	text-shadow: 2px 2px 1px gray;
 }
 
+.collection {
+	margin: 0 auto;
+	background-color: #000;
+	border-radius: 10px;
+}
+
+.collection a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.goback {
+	width: 150px;
+	height: 50px;
+	margin: 20px auto;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.goback a {
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+	margin-right: 20px;
+	margin-bottom: 100px;
+}
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
